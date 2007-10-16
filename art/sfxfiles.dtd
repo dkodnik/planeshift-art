@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<!ELEMENT Sounds (Sound*)>
+
+<!ELEMENT Sound EMPTY>
+<!ATTLIST Sound
+	name	CDATA	#REQUIRED
+	file	CDATA	#REQUIRED>
+

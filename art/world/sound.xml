@@ -1,0 +1,40 @@
+<MAP_SOUNDS>
+<SECTOR NAME="NPCroom" >
+<BACKGROUND RESOURCE="tavern_de_kadel background"
+
+
+
+               MINVOL="0.0" 
+                MAXVOL="1.0" 
+                WEATHER="0" 
+                FADEDELAY="10000"
+                TIME="0"/>
+
+                   
+    <EMITTER RESOURCE="NPCroom_3D" 
+             MINVOL="0.0"
+             MAXVOL="1.0"
+             MAX_RANGE="10.0"
+             MIN_RANGE="2.0"
+             X="0.0" Y="0.0" Z="-180"             
+             />                                                                
+    
+                 
+    <EMITTER RESOURCE="NPCroom_3D"             
+             MINVOL="0.0"
+             MAXVOL="1.0"
+             MAX_RANGE="10.0"
+             MIN_RANGE="2.0"
+             MESH="_s_blacksmith" />             
+            
+             
+    <AMBIENT RESOURCE="NPCroom_Ambient" 
+                MINVOL="0.0" 
+                MAXVOL="0.2" 
+                WEATHER="0" 
+                FADEDELAY="10000"
+                TIME="0"/>                              
+</SECTOR>
+</MAP_SOUNDS>
+
+
