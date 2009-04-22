@@ -631,11 +631,11 @@
 
 <image file="/paws/real_skin/backdrop/minigame.png" resource="Minigame Background"></image>
 
-<image file="/paws/real_skin/buttons.jpg" resource="Glossy Red Button">
+<image file="/paws/real_skin/components2.png" resource="Glossy Red Button">
     <texturerect x="235" y="11" width="58" height="58" /> 
 </image>
 
-<frame resource="Scaling Red Button" file="/paws/real_skin/buttons.jpg" type="horizontal">
+<frame resource="Scaling Red Button" file="/paws/real_skin/components2.png" type="horizontal">
     <left   tx="235" ty="11" tw="5" th="58"/>
     <middle tx="240" ty="11" tw="3" th="58" tile="true" />
     <right  tx="288" ty="11" tw="5" th="58"/>
