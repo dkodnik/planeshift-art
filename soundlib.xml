@@ -83,4 +83,14 @@
     <Sound name="sound.spell.heal1"        file="/planeshift/art/music/effects/heal1.ogg" />
     <Sound name="sound.spell.heal2"        file="/planeshift/art/music/effects/heal2.ogg" />
     <Sound name="sound.spell.attack3"      file="/planeshift/art/music/effects/attack3.ogg" />
+
+    <!-- sample entries to be used with common.xml for creature sounds -->
+    <Sound name="ylian_peace_v1"            file="/planeshift/art/sounds/creature/ulber_loop.ogg"/>
+    <Sound name="ylian_peace_v2"            file="/planeshift/art/sounds/creature/ulber_loop.ogg"/>
+    <Sound name="ylian_peace_v3"            file="/planeshift/art/sounds/creature/ulber_loop.ogg"/>
+
+    <Sound name="ylian_walk_v1"            file="/planeshift/art/sounds/amb/cave_monsters_1.ogg"/>
+    <Sound name="ylian_walk_v2"            file="/planeshift/art/sounds/amb/cave_monsters_1.ogg"/>
+    <Sound name="ylian_walk_v3"            file="/planeshift/art/sounds/amb/cave_monsters_1.ogg"/>
+
 </Sounds>
