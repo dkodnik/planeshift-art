@@ -3,7 +3,7 @@
     <!-- Ylian -->
     <ENTITY MESH="Ylian" MAX_RANGE="30.0">
         <!-- Peace state -->
-     	<STATE ID="1" PROBABILITY="0.1" VOLUME="1.0" DELAY="10">
+     	<STATE ID="1" PROBABILITY="1.0" VOLUME="1.0" DELAY="10">
      		<RESOURCE NAME="ylian_peace_v1" />
      		<RESOURCE NAME="ylian_peace_v2" />
      		<RESOURCE NAME="ylian_peace_v3" />
@@ -21,19 +21,19 @@
      		<RESOURCE NAME="ylian_die_v3" />
      	</STATE>
      	<!-- Combat state -->
-     	<STATE ID="100" PROBABILITY="0.5" VOLUME="1.0" DELAY="3">
+     	<STATE ID="100" PROBABILITY="1.0" VOLUME="1.0" DELAY="3">
      		<RESOURCE NAME="ylian_combat_v1" />
      		<RESOURCE NAME="ylian_combat_v2" />
      		<RESOURCE NAME="ylian_combat_v3" />
      	</STATE>
         <!-- Walk state -->
-        <STATE ID="101" PROBABILITY="0.1" VOLUME="1.0" DELAY="10">
+        <STATE ID="12" PROBABILITY="1.0" VOLUME="1.0" DELAY="10">
      		<RESOURCE NAME="ylian_walk_v1" />
      		<RESOURCE NAME="ylian_walk_v2" />
      		<RESOURCE NAME="ylian_walk_v3" />
      	</STATE>
      	<!-- Run state -->
-     	<STATE ID="102" PROBABILITY="0.1" VOLUME="1.0" DELAY="5">
+     	<STATE ID="13" PROBABILITY="1.0" VOLUME="1.0" DELAY="5">
      		<RESOURCE NAME="ylian_run_v1" />
      		<RESOURCE NAME="ylian_run_v2" />
      		<RESOURCE NAME="ylian_run_v3" />
